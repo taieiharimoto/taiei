@@ -1,0 +1,26 @@
+html, body, #myCarousel {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+a.left {
+  width: 10%;
+  height: 100%;
+  background: red;
+  float: left;
+}
+
+a.right {
+  width: 10%;
+  height: 100%;
+  background: blue;
+  float: right;
+}
+
+.carousel-inner {
+  float: left;
+  width: 80%;
+  height: 100%;
+  background: green;
+}
