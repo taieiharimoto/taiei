@@ -6,9 +6,11 @@ $(window).load(function() {
 
   $('a.left').click(function() {
     window.mySwipe.prev();
+    return false;
   });
 
   $('a.right').click(function() {
     window.mySwipe.next();
+    return false;
   })
 });
