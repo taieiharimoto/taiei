@@ -1,4 +1,4 @@
-html, body, #myCarousel {
+html, body {
   height: 100%;
   width: 100%;
   margin: 0;
@@ -18,7 +18,7 @@ a.right {
   float: right;
 }
 
-.carousel-inner {
+#myCarousel {
   float: left;
   width: 80%;
   height: 100%;
