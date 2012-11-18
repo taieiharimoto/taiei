@@ -1,0 +1,8 @@
+Save to local
+1. git status
+2. git add .
+3. git commit -m "MESSAGE"
+
+Save to server
+1. git lola
+2. git push origin
