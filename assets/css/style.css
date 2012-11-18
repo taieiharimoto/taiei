@@ -5,17 +5,23 @@ html, body {
 }
 
 a.left {
-  width: 10%;
-  height: 100%;
-  background: red;
   float: left;
 }
 
 a.right {
+  float: right;
+  transform:rotate(180deg);
+  -ms-transform:rotate(180deg); /* IE 9 */
+  -moz-transform:rotate(180deg); /* Firefox */
+  -webkit-transform:rotate(180deg); /* Safari and Chrome */
+  -o-transform:rotate(180deg); /* Opera */
+}
+
+a.left, a.right {
+  background: url("../../assets/img/ArrowGoLeft.png") no-repeat center center;
   width: 10%;
   height: 100%;
-  background: blue;
-  float: right;
+  opacity: 0.2;
 }
 
 #carousel {
