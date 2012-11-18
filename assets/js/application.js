@@ -1,16 +1,11 @@
 $(window).load(function() {
-  var contentWidth = 11.0 / 8.5 * window.innerHeight;
-  var navWidth = (window.innerWidth - contentWidth) / 2;
-
-  window.mySwipe = new Swipe(document.getElementById('myCarousel'));
+  window.swiper = new Swipe(document.getElementById('carousel'));
 
   $('a.left').click(function() {
-    window.mySwipe.prev();
-    return false;
+    window.swiper.prev();
   });
 
   $('a.right').click(function() {
-    window.mySwipe.next();
-    return false;
-  })
+    window.swiper.next();
+  });
 });

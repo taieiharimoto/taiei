@@ -18,9 +18,13 @@ a.right {
   float: right;
 }
 
-#myCarousel {
+#carousel {
   float: left;
   width: 80%;
   height: 100%;
   background: green;
+}
+
+ul {
+  height: 100%;
 }
