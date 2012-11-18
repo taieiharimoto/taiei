@@ -7,6 +7,7 @@ $(window).load(function() {
 
   $('a.left').click(function() {
     window.swiper.prev();
+    return false;
   });
 
   $('a.left, a.right').hover(
@@ -20,5 +21,6 @@ $(window).load(function() {
 
   $('a.right').click(function() {
     window.swiper.next();
+    return false;
   });
 });
